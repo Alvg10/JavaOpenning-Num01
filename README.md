@@ -1,18 +1,9 @@
-## Getting Started
+### el programa trata de simular un sistema en consola donde los usuarios ingresan una calificación del 1 al 5 sobre un servicio (por ejemplo: “¿Qué tan satisfecho estás con la atención?”). El programa guarda esas respuestas y luego, cuando el usuario lo desee, muestra estadísticas como:
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+- Cuántas personas votaron.
 
-## Folder Structure
+- Cuántos votos hubo por cada número (1, 2, 3, 4, 5).
 
-The workspace contains two folders by default, where:
+- Promedio general.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- Porcentaje de satisfacción (promedios de 4 o 5, por ejemplo).
