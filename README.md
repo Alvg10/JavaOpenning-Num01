@@ -1,9 +1,11 @@
-### el programa trata de simular un sistema en consola donde los usuarios ingresan una calificación del 1 al 5 sobre un servicio (por ejemplo: “¿Qué tan satisfecho estás con la atención?”). El programa guarda esas respuestas y luego, cuando el usuario lo desee, muestra estadísticas como:
-
-- Cuántas personas votaron.
-
-- Cuántos votos hubo por cada número (1, 2, 3, 4, 5).
+### Es un programa donde simulas una encuesta a varios usuarios sobre un servicio (por ejemplo: atención en una tienda). Cada persona califica del 1 al 5. El sistema registra sus respuestas y al final saca reportes como:
 
 - Promedio general.
 
-- Porcentaje de satisfacción (promedios de 4 o 5, por ejemplo).
+- Cuántas personas votaron por cada puntuación.
+
+- Porcentaje de satisfacción (promedios altos).
+
+- Detección de datos inválidos con manejo de errores.
+
+- Opciones mediante menú con switch.
